@@ -58,3 +58,7 @@ npm run build
 ```
 
 Output goes to the `dist/` folder, ready for deployment on Vercel, Netlify, or GitHub Pages.
+
+## Live
+
+[jaykhairnar.vercel.app](https://jaykhairnar.vercel.app)
