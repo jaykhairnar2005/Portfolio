@@ -47,7 +47,7 @@ const Contact = () => {
   return (
     <section id="contact" className="py-32 bg-transparent relative z-10 overflow-hidden">
       <div className="container mx-auto px-6 md:px-12 max-w-7xl relative">
-        <div className="flex flex-col lg:flex-row gap-20 items-start">
+        <div className="flex flex-col lg:flex-row gap-12 lg:gap-20 items-start">
 
           {/* ── Left: heading + contact links ── */}
           <motion.div

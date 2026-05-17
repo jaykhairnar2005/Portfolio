@@ -5,7 +5,7 @@ const About = () => {
   return (
     <section id="about" className="py-32 bg-transparent relative z-10">
       <div className="container mx-auto px-6 md:px-12 max-w-7xl">
-        <div className="flex flex-col lg:flex-row gap-20 items-start">
+        <div className="flex flex-col lg:flex-row gap-12 lg:gap-20 items-start">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -32,7 +32,7 @@ const About = () => {
               <p>
                 Backed by <span className="text-gray-900 dark:text-white font-medium">AWS and NVIDIA certifications</span> and active participation in national-level hackathons, I focus on building intuitive, resilient systems that bridge the gap between complex ideas and functional reality.
               </p>
-              <div className="pt-8 border-t border-gray-200 dark:border-white/10 flex gap-12">
+              <div className="pt-8 border-t border-gray-200 dark:border-white/10 grid grid-cols-2 sm:grid-cols-3 gap-8">
                 <div>
                   <p className="text-4xl font-serif text-gray-900 dark:text-white mb-2">2+</p>
                   <p className="text-sm font-medium tracking-wider uppercase text-gray-500">Years Coding</p>

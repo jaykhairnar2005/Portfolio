@@ -55,7 +55,7 @@ const Projects = () => {
         </motion.div>
 
         {/* Bento Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-3 auto-rows-[280px] gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-3 auto-rows-[minmax(280px,_auto)] gap-6">
           {projects.map((project) => (
             <SpotlightCard
               layoutId={`card-${project.id}`}

@@ -41,7 +41,7 @@ const Hero = () => {
             <p className="text-gray-500 dark:text-gray-500 font-medium mb-6 tracking-[0.2em] uppercase text-xs">
               Jay Khairnar — Portfolio
             </p>
-            <h1 className="text-6xl md:text-8xl lg:text-9xl font-medium tracking-tighter mb-6 text-gray-900 dark:text-white leading-[0.9]">
+            <h1 className="text-5xl md:text-8xl lg:text-9xl font-medium tracking-tighter mb-6 text-gray-900 dark:text-white leading-[0.9]">
               Full Stack <br />
               <span className="font-serif italic text-gray-400 dark:text-gray-500">Developer</span>
             </h1>
@@ -61,7 +61,7 @@ const Hero = () => {
               </motion.div>
             </div>
 
-            <div className="flex flex-wrap items-center gap-6">
+            <div className="flex flex-col sm:flex-row flex-wrap items-start sm:items-center gap-5 sm:gap-6">
               {/* Primary CTA */}
               <MagneticButton
                 href="#projects"
