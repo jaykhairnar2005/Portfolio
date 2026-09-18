@@ -27,7 +27,7 @@ const About = () => {
           >
             <div className="space-y-8 text-xl text-gray-600 dark:text-gray-400/90 leading-relaxed font-light">
               <p>
-                I'm a third-year BE Information Technology student at <span className="text-gray-900 dark:text-white font-medium">PVG's College of Engineering, Nashik</span>, with hands-on experience in full-stack development and software architecture. I build scalable applications using the <span className="text-gray-900 dark:text-white font-medium">MERN stack, Java, and Python.</span>
+                I'm a Final Year BEIT student at <span className="text-gray-900 dark:text-white font-medium">PVG's College of Engineering, Nashik</span>, with hands-on experience in full-stack development and software architecture. I build scalable applications using the <span className="text-gray-900 dark:text-white font-medium">MERN stack, Java, and Python.</span>
               </p>
               <p>
                 Backed by <span className="text-gray-900 dark:text-white font-medium">AWS and NVIDIA certifications</span> and active participation in national-level hackathons, I focus on building intuitive, resilient systems that bridge the gap between complex ideas and functional reality.
@@ -55,3 +55,4 @@ const About = () => {
 };
 
 export default About;
+

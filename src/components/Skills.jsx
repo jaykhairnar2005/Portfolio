@@ -13,7 +13,7 @@ const Skills = () => {
     {
       title: "Frameworks & Libraries",
       icon: <FiLayers className="text-2xl mb-4 text-gray-400" />,
-      skills: ["React", "Node.js", "Express.js", "MongoDB", "Flask"],
+      skills: ["React", "Node.js", "Express.js", "Flask"],
       className: "md:col-span-2 md:row-span-2"
     },
     {

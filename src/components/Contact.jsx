@@ -39,7 +39,11 @@ const Contact = () => {
       })
       .catch((err) => {
         console.error('EmailJS error:', err);
-        setErrorMsg('Something went wrong. Please try again or email me directly.');
+        // Display the specific error text if available (usually helps debug 412 errors)
+        const detailedError = err.text || err.message || 'Something went wrong.';
+        setErrorMsg(detailedError.includes('grant') || detailedError.includes('Gmail') ? 
+          'EmailJS Error: Please reconnect your Gmail account in the EmailJS dashboard.' : 
+          `EmailJS Error: ${detailedError}`);
         setStatus('error');
       });
   };
